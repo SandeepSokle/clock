@@ -1,0 +1,42 @@
+.timer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.timer-wrapper{
+    height: 6rem !important;
+    font-size: 4rem;
+    font-weight: 500;
+   /*  display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.buttons-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+.pause-button , .reset-button{
+    width: 103px;
+    height: 43px;
+    border-radius: 28px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff
+}
+.cycle-container{
+    display: flex;
+    
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input{
+padding: 15px;
+
+}
